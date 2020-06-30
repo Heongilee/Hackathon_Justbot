@@ -1,0 +1,24 @@
+{
+  "name": "Hackathon_Justbot",
+  "version": "1.0.0",
+  "description": "2020년 제8회 세종대학교 SW·AI 해커톤 팀 '그저봇'",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heongilee/Hackathon_Justbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heongilee/Hackathon_Justbot/issues"
+  },
+  "homepage": "https://github.com/Heongilee/Hackathon_Justbot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
