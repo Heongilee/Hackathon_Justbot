@@ -115,10 +115,31 @@
                             path_img='./img/month11.png'
                         else if(dt1=='12월 학사일정입니다.')
                             path_img='./img/month12.png'
+                        /////////////////////////////////////////////////////////
+                        // 졸업 요건
+                        ////////////////////////////////////////////////
+                        else if(dt1=='12학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/12.jpg'
+                        else if(dt1=='13학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/13.jpg'
+                        else if(dt1=='14학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/14.jpg'
+                        else if(dt1=='15학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/15.jpg'
+                        else if(dt1=='16학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/16.jpg'
+                        else if(dt1=='17학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/17.jpg'
+                        else if(dt1=='18학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/18.jpg'
+                        else if(dt1=='19학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/19.jpg'
+                        else if(dt1=='20학번 학생의 졸업 요건은 다음과 같습니다.')
+                            path_img='../asset/gra_req_img/20.jpg'
                         if(path_img=='')
                             return sendMessage(dt1);
                         else
-                            return sendMessage(dt1+"<br><img src='"+path_img+"' height='200px' width='500px'></img>");
+                            return sendMessage(dt1+"<br><img src='"+path_img+"' height='auto' width='500px'></img>");
 
                     }
 

@@ -22,10 +22,7 @@ app.use(bodyParser.json());
 app.set('port', process.env.PORT || PORT);
 
 app.get('/', function(req, res) {
-    res.redirect('html/appMain.html');
-});
-app.get('/', function(req, res) {
-    res.redirect('html/example.html');
+    res.redirect('html/index.html');
 });
 app.get('/chatbot', (req,res) => {
     console.log(req.query.msg);
