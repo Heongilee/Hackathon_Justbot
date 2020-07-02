@@ -7,11 +7,11 @@ var mod_LoadMyGDF = require('./public/js/LoadMyGDF');
 const bodyParser = require('body-parser');
 // Imports the Dialogflow library
 const dialogflow = require('@google-cloud/dialogflow');
-// Instantiates a session client
+// Instantiates a session client    
 const sessionClient = new dialogflow.SessionsClient()
 const uuid = require('uuid');
 const chatbot=require('./chatbot.js')
-const bot=new chatbot('newagent-1-impflf','./newagent-1-impflf-cf563cf4b796.json')
+const bot=new chatbot('totalassistant-rmysgs','./totalassistant-rmysgs-f89f8a5b03c6.json')
 var app = express();
 const PORT = 3000;
 
@@ -59,7 +59,7 @@ http.createServer(app).listen(app.get('port'), function() {
 //    '주문해줘',
 //    '배달',
 //  ]
-// // languageCode: 
+// // languageCode:
 //  const languageCode = 'ko';
 //
 
