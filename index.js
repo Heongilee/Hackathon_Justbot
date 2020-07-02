@@ -2,6 +2,7 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var static = require('serve-static');
+var mod_LoadMyGDF = require('./public/js/LoadMyGDF');
 
 var app = express();
 const PORT = 8090;
@@ -11,6 +12,9 @@ app.set('port', process.env.PORT || PORT);
 
 app.get('/', function(req, res) {
     res.redirect('html/appMain.html');
+});
+app.get('/', function(req, res) {
+    res.redirect('html/example.html');
 });
 
 http.createServer(app).listen(app.get('port'), function() {
