@@ -5,7 +5,7 @@ var static = require('serve-static');
 const bodyParser = require('body-parser');
 // Imports the Dialogflow library
 const dialogflow = require('@google-cloud/dialogflow');
-// Instantiates a session client
+// Instantiates a session client    
 const sessionClient = new dialogflow.SessionsClient()
 const uuid = require('uuid');
 const chatbot=require('./chatbot.js')
@@ -55,7 +55,7 @@ http.createServer(app).listen(app.get('port'), function() {
 //    '주문해줘',
 //    '배달',
 //  ]
-// // languageCode: 
+// // languageCode:
 //  const languageCode = 'ko';
 //
 
