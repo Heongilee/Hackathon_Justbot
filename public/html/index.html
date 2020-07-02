@@ -19,9 +19,25 @@ Released   : 20130902
 <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
 <link href="default.css" rel="stylesheet" type="text/css" media="all" />
 <link href="lib/footer.css" rel="stylesheet" type="text/css" media="all" /><link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<!-- 플로팅 버튼 관련 cdn -->
+	<link rel="stylesheet" href="../css/st.action-panel.css">
+	<script src="../js/st.action-panel.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('st-actionContainer').launchBtn({
+				openDuration: 600,
+				closeDuration: 200,
+
+				rotate: true,
+			});
+		});
+	</script>
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-
+<!--	팝업창 호출-->
+	<script language="javascript">
+		function showPopup() { window.open("appMain.html", "a", "width=1000, height=500, left=100, top=50"); }
+	</script>
 </head>
 <body>
 <div id="header" class="container">
@@ -43,6 +59,30 @@ Released   : 20130902
 <div id="banner"></div>
 <div id="page" class="container">
 
+</div>
+<!-- 플로팅 버튼 영역 -->
+<div class="st-actionContainer right-bottom">
+	<div class="st-panel">
+		<div class="st-panel-header"><i class="fa fa-bars" aria-hidden="true"></i> <a href="https://www.jqueryscript.net/menu/">Menu</a></div>
+		<div class="st-panel-contents">
+			Put menu or icon links here!<br /><br />
+			Or make a <a href="https://www.jqueryscript.net/tags.php?/grid/">grid</a>:
+		</div>
+		<div class="grid">
+			<a href="#" class="gridChild"><i class="fa fa-cubes" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-database" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-send" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-tag" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-trophy" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-user" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-file" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-table" aria-hidden="true"></i></a>
+			<a href="#" class="gridChild"><i class="fa fa-eject" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<div class="st-btn-container right-bottom">
+		<div class="st-button-main"><i class="fa fa-bars" aria-hidden="true" onclick="showPopup()"></i></div>
+	</div>
 </div>
 <!-- footer 영역 include -->
 <footer>

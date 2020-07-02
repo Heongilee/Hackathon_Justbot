@@ -11,7 +11,7 @@ const dialogflow = require('@google-cloud/dialogflow');
 const sessionClient = new dialogflow.SessionsClient()
 const uuid = require('uuid');
 const chatbot=require('./chatbot.js')
-const bot=new chatbot('newagent-1-impflf','./newagent-1-impflf-cf563cf4b796.json')
+const bot=new chatbot('totalassistant-rmysgs','./totalassistant-rmysgs-f89f8a5b03c6.json')
 var app = express();
 const PORT = 3000;
 

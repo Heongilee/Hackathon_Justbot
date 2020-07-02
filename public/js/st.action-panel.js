@@ -26,7 +26,10 @@
 
     //Open panel animation
     launchPanelAnim = function() {
+      //showPopup();
+
       $(".chat_window").hide(1000);
+      self.close();
       // panel.animate({
         //   opacity: "toggle",
         //   height: "toggle"
@@ -35,6 +38,7 @@
     
     //Close panel animation
     closePanelAnim = function() {
+      //self.close();
       $(".chat_window").show(1000);
       // panel.animate({
       //   opacity: "hide",
