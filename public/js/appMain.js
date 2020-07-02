@@ -1,29 +1,29 @@
-(function () {
+(function() {
     var Message;
-    Message = function (arg) {
+    Message = function(arg) {
         this.text = arg.text, this.message_side = arg.message_side;
-        this.draw = function (_this) {
-            return function () {
+        this.draw = function(_this) {
+            return function() {
                 var $message;
                 $message = $($('.message_template').clone().html());
                 $message.addClass(_this.message_side).find('.text').html(_this.text);
                 $('.messages').append($message);
-                return setTimeout(function () {
+                return setTimeout(function() {
                     return $message.addClass('appeared');
                 }, 0);
             };
         }(this);
         return this;
     };
-    $(function () {
+    $(function() {
         var getMessageText, message_side, sendMessage;
         message_side = 'right';
-        getMessageText = function () {
+        getMessageText = function() {
             var $message_input;
             $message_input = $('.message_input');
             return $message_input.val();
         };
-        sendMessage = function (text) {
+        sendMessage = function(text) {
             var $messages, message;
             if (text.trim() === '') {
                 return;
@@ -64,7 +64,9 @@
 
             });
         });
-        $('.message_input').keyup(function (e) {
+        
+        // 엔터 키를 누르면 메시지를 보냄.
+        $('.message_input').keyup(function(e) {
             if (e.which === 13) {
                 let msg=$(".message_input").val();
                 console.log(msg);
@@ -119,6 +121,7 @@
             }
         });
         sendMessage('안녕하세오 그저봇이에오');
+
         // setTimeout(function () {
         //     return sendMessage('Hi Sandy! How are you?');
         // }, 1000);
