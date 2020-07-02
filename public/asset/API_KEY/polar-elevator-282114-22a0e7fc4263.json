@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "polar-elevator-282114",
+  "private_key_id": "22a0e7fc42631545770fca4163b3a820218ec873",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyLDx14bAJnh40\nA6Px5arGQ1GzIUKT2EKqVN9+Fs4O/Qeg/YAsqXvl6Yz4b6sFvaVD+32aFwmu1l59\nn9mPFa5Cosy0LHUvfDRKFyRkAe2gKTIbRwgNA69cq/yNOnIIYnkJ3vtD0emU+ixW\nppoBkRvdX64N6eNyuz2xvt4MkgySjUL244BbSrsD4cAnfcdymXa6Ar0xWLZevwBA\nqs/VYfKhOnBE9Etzb2oTC/+4pZc1mJU7lPzb23ufvaxX5swMwWMDLMvldS4h/WHe\n7C0PTyh2PUP8fc++JGjGEn0dbCTsvhhbYskOHqoISeel1wmc2Wu1XO/5c7dtCaFV\npOZOEacHAgMBAAECggEAKZnWjBekCLrYhoCLGQHs+9ngC5kqeGa4OhkTDde5SRqf\nW2GVOdhgy2/asG8yWWbMXbEsxHu4kRAQg/h8zcHcLEbi0PbIbcvsUZhRsOAaYZj8\n0A2nvZIssdCeaUNKONb1N+7OcCllBpnbHGhN8Su2e9vJQgpoRvOdFhFgu0KmmNjq\nSw6uHojbxrWhcJwxJGCVmvVp4bW75C/gq8CcXr4eEWAKOaneGP6jH4nji3JdAvig\npQoyed+izbs38RZBjLy82/VUO3qoybQ1C6cXEBIr6JAP13VYpAcVYVqLPQSns07q\nfqbYQoHbj7ERaqmIP/O4buUS0NtXNtDq3QNTN7TbYQKBgQDytM7HDnQ3MNTtpDFU\ny1UrQkQaoSROkbf4PALp/RylrPOoKb77llbJWVAjG3bh7t9/0dG+IEn7iE2016SD\nCvIo1tZMWv46axlrV7iHi2sCReUpIRtK5sBuqJB1pzFcA5icLaP/CaeC/iQiXVlT\nVy3XPuFdR9sE/uX3zMXQw9eMvwKBgQC77oyfplOD3XdJ3AozrDkvvMFDpyGKd2hz\nmOTtHcqw1v9aGIepBO8z6WWeOQoHVJ1irVZO9Z54rJEY7BANMrBzelzaM/1sB4L7\n/AHYuPiX5/Aa/7PB4d43EkzaEHsD7yiqwwUbKwJPZkjzoRwg2ZAAsdCh4rZxA5Fq\nVJqwTqJPuQKBgFUOBhT+PL4Gr+gkDWGw7ET/sQxAApBCQt2Mclz75ektpin9jz9t\n3TYsxYe4HT5qTwrlRgLCIAs1Jj5FABMoZ9rmBy21CbkBRWQ31qQxuKuQQRHb10u1\neCSPkCibEhIz9GxvFjTPdlPSqmkcm6w4NgljsOjWwKuMhJ0FtyFFMKnTAoGBAIib\nq/71MaoeF3NKDuRm4Z7wz2+1Eq2LhRLaZjZyvH71meLNB/f1zUdn9mUgQ0j22fz7\n0UxOQOapUkPSfQyK9zbKEKrQtfuMLkurcVAvjQ0nHSMTEoDyBcz0cYbmCfXfKCmQ\n36pTBjffO1JVn5PFcmb+2pCCs2nNVSv82gEk99mJAoGBAKqdNd6jsH6LbvsCY1it\nPLkLxwY3+6zoQrWv3AL+GfklmCc2VTdFZeV8v9ebrOGSjZxZwSYcsKRJckBnY9C4\n7r2Kn+ot+p7fYjbExYuU8BT4uDQLDQBS1zftUODLo4GNgeLLNcal7CSWqr6jXzkW\n48kjtLhX77NzsvbdSX7NkxCA\n-----END PRIVATE KEY-----\n",
+  "client_email": "totalagent-stt@polar-elevator-282114.iam.gserviceaccount.com",
+  "client_id": "115741010131975826696",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/totalagent-stt%40polar-elevator-282114.iam.gserviceaccount.com"
+}
