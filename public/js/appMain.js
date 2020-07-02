@@ -64,6 +64,11 @@
 
             });
         });
+
+        // 테스트
+        $(".st-actionContainer").click(function(){
+            
+        });
         
         // 엔터 키를 누르면 메시지를 보냄.
         $('.message_input').keyup(function(e) {

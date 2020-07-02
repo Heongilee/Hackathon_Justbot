@@ -26,18 +26,20 @@
 
     //Open panel animation
     launchPanelAnim = function() {
-      panel.animate({
-        opacity: "toggle",
-        height: "toggle"
-      }, settings.openDuration);
+      $(".chat_window").hide(1000);
+      // panel.animate({
+        //   opacity: "toggle",
+        //   height: "toggle"
+      // }, settings.openDuration);
     };
-
+    
     //Close panel animation
     closePanelAnim = function() {
-      panel.animate({
-        opacity: "hide",
-        height: "hide"
-      }, settings.closeDuration);
+      $(".chat_window").show(1000);
+      // panel.animate({
+      //   opacity: "hide",
+      //   height: "hide"
+      // }, settings.closeDuration);
     };
 
     //Open panel and rotate icon

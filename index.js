@@ -16,7 +16,6 @@ var app = express();
 const PORT = 3000;
 
 
-
 app.use(static(path.join(__dirname, 'public/')));
 app.use(bodyParser.urlencoded({extended : "false"}));
 app.use(bodyParser.json());
