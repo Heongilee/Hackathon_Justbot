@@ -1,0 +1,15 @@
+footer {
+    background-color: #3c3933;
+}
+
+.foo_div{
+    text-align:center;
+}
+.foo_div span{
+    font-size : 15px;
+    color : white;
+}
+.foo_div p {
+    margin-top: 5px;
+    color:white;
+}
