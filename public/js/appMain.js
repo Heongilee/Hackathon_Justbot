@@ -110,6 +110,50 @@
                             path_img='./img/month11.png'
                         else if(dt1=='12월 학사일정입니다.')
                             path_img='./img/month12.png'
+                        else if(dt1=='디자인 이노베이션학과 교과과정은 다음과 같습니다.')
+                            path_img='./img/디자인이노베이션교과과정.png'
+                        else if(dt1=='만화애니메이션학과 교과과정은 다음과 같습니다.')
+                            path_img='./img/만화애니메이션교과과정.png'
+                        else if(dt1=='정보보호학과 14년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/정보보호14.png'
+                        else if(dt1=='정보보호학과 15년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/정보보호15.png'
+                        else if(d1=='정보보호학과 16년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/정보보호16.png'
+                        else if(dt1=='정보보호학과 17년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/정보보호17.png'
+                        else if(dt1=='정보보호학과 18년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/정보보호18.png'
+                        else if(dt1 == '데이터사이언스학과 교과과정은 다음과 같습니다.')
+                            path_img='./img/데사교과과정.png'
+                        else if(dt1 == '소프트웨어학과 16년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/소웨16.png'
+                        else if(dt1 == '소프트웨어학과 20년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/소웨20.png'
+                        else if(dt1 == '지능기전공학과 스마트기기 17년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/17스마트.png'
+                        else if(dt1 == '지능기전공학과 스마트기기 18년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/18스마트.png'
+                        else if(dt1 == '지능기전공학과 스마트기기 19년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/19스마트.png'
+                        else if(dt1 == '지능기전공학과 스마트기기 20년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/20스마트.png'
+                        else if(dt1 == '지능기전공학과 무선이동체 17년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/17무선이동.png'
+                        else if(dt1 == '지능기전공학과 무선이동체 18년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/18무선이동.png'
+                        else if(dt1 == '지능기전공학과 무선이동체 19년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/19무선이동.png'
+                        else if(dt1 == '지능기전공학과 무선이동체 20년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/20무선이동.png'
+                        else if(dt1 == '컴퓨터공학과 16년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/컴공16.png'
+                        else if(dt1 == '컴퓨터공학과 17년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/컴공17.png'
+                        else if(dt1 == '컴퓨터공학과 18년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/컴공18.png'
+                        else if(dt1 == '컴퓨터공학과 19년도 교과과정은 다음과 같습니다.')
+                            path_img='./img/컴공19.png'
                         if(path_img=='')
                             return sendMessage(dt1);
                         else
