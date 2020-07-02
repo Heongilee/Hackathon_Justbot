@@ -18,12 +18,9 @@
   },
   "homepage": "https://github.com/Heongilee/Hackathon_Justbot#readme",
   "dependencies": {
-<<<<<<< HEAD
     "body-parser": "^1.19.0",
-=======
     "@google-cloud/dialogflow": "^2.0.0",
     "dialogflow": "^1.2.0",
->>>>>>> origin/master
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "uuid": "^8.2.0"
