@@ -2,6 +2,8 @@ var express = require('express');
 var http = require('http');
 var path = require('path');
 var static = require('serve-static');
+var mod_LoadMyGDF = require('./public/js/LoadMyGDF');
+
 const bodyParser = require('body-parser');
 // Imports the Dialogflow library
 const dialogflow = require('@google-cloud/dialogflow');
@@ -14,7 +16,6 @@ var app = express();
 const PORT = 3000;
 
 
-
 app.use(static(path.join(__dirname, 'public/')));
 app.use(bodyParser.urlencoded({extended : "false"}));
 app.use(bodyParser.json());
@@ -22,6 +23,9 @@ app.set('port', process.env.PORT || PORT);
 
 app.get('/', function(req, res) {
     res.redirect('html/appMain.html');
+});
+app.get('/', function(req, res) {
+    res.redirect('html/example.html');
 });
 app.get('/chatbot', (req,res) => {
     console.log(req.query.msg);
