@@ -1,5 +1,5 @@
 # Hackathon_Justbot
-2020년 제8회 세종대학교 SW·AI 해커톤 팀 '그저봇'
+2020년 제8회 세종대학교 SW·AI 해커톤 팀 '그저봇' 은상 수상
 
 ### * 팀원 구성  
 김영현(portfolioExpert)  kyh7518@gmail.com  
