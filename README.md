@@ -11,7 +11,7 @@
   
 ### * 개발 스펙 :  
 ##### FE :  
-반응형 웹 기반(html/css/js/jQuery)  
+HTML5 웹 기반(html/css/js/jQuery)  
   
   
 ##### BE :  
