@@ -49,7 +49,7 @@ Google Dialogflow를 활용하여 연계질문과 동의어에 대한 처리, �
   </tr>
 </table>
 　
-　
+   
 ### Tech stack :hammer_and_pick:
 
 - Front-end : ![HTML5](https://img.shields.io/badge/HTML5-%20-%23E34F26?logo=HTML5) ![CSS3](https://img.shields.io/badge/CSS3-%20-%231572B6?logo=css3) ![Javascript](https://img.shields.io/badge/Javascript-%20-%23F7DF1E?logo=javascript)   
@@ -58,7 +58,7 @@ Google Dialogflow를 활용하여 연계질문과 동의어에 대한 처리, �
 - IDE or Editor : ![vscode](https://img.shields.io/badge/vscode-%20-%23007ACC?logo=Visual%20Studio%20Code)   
 - VCS : ![Github](https://img.shields.io/badge/Github-%23181717?logo=GitHub)
 　
-　
+   
 ### Demo :computer:
    
 <table>
