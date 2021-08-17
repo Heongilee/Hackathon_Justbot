@@ -90,7 +90,7 @@ Google Dialogflow를 활용하여 연계질문과 동의어에 대한 처리, �
       <img src="https://user-images.githubusercontent.com/55871242/129662903-cc688e57-0b47-4fad-84d2-9be6ed83b6a0.png" width="400px" />
     </td>
     <td align="center" width="405px">
-      <img src="https://via.placeholder.com/400x204" width="400px" />
+      <img src="https://github.com/Heongilee/Hackathon_Justbot/blob/master/public/asset/STT.gif?raw=true" width="400px" />
     </td>
   </tr>
   <tr height="50px">
