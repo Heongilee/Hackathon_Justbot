@@ -57,7 +57,14 @@ Google Dialogflow를 활용하여 연계질문과 동의어에 대한 처리, �
 - OS : ![Windows](https://img.shields.io/badge/Windows-10-%230078D6?logo=windows)   
 - IDE or Editor : ![vscode](https://img.shields.io/badge/vscode-%20-%23007ACC?logo=Visual%20Studio%20Code)   
 - VCS : ![Github](https://img.shields.io/badge/Github-%23181717?logo=GitHub)
-　
+   
+
+### Paper work 📝
+
+
+|**시스템 아키텍처**|
+|:----------:|
+|![image](https://user-images.githubusercontent.com/55871242/139025658-b19364bd-bb46-4eca-b009-6ad70ee28839.png)|
    
 ### Demo :computer:
    
